@@ -36,7 +36,8 @@ public class Circulo extends Figura {
 	@Override
 	public double calcularArea() {
 		double pi = 3.14;
-		double resultadoArea = pi * Math.pow(pi, 2);
+		double radio = diametro / 2;
+		double resultadoArea = pi * Math.pow(radio, 2);
 		return resultadoArea;
 	}
 
